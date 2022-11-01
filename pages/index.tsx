@@ -23,26 +23,26 @@ const Home: NextPage = () => {
 
         <div className={styles.grid}>
 
-          <a className={styles.card}>
+          <div className={styles.card}>
             <Link href="/practices/table">
               <h2>Table &rarr;</h2>
               <p>Scrape tables</p>
             </Link>
-          </a>
+          </div>
 
-          <a className={styles.card}>
+          <div className={styles.card}>
             <Link href="/practices/form">
               <h2>Form &rarr;</h2>
               <p>Submit forms</p>
             </Link>
-          </a>
+          </div>
 
-          <a className={styles.card}>
+          <div className={styles.card}>
             <Link href="/practices/screenshot">
               <h2>Screenshot &rarr;</h2>
               <p>Scroll page and take a screenshot</p>
             </Link>
-          </a>
+          </div>
 
         </div>
       </main>

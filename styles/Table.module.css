@@ -1,0 +1,25 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table, .table th, .table td {
+    border: 1px solid;
+}
+
+.table th, .table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* table header height */
+.table th {
+    height: 40px;
+}
+
+/* row highlighting for even-numbered rows */
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+/* cell highlighting on hover */
+.table td:hover {background-color: #ddd;}

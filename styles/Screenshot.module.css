@@ -1,0 +1,17 @@
+.container {
+    padding: 20px;
+}
+
+.extraSpace {
+    height: 800px;
+}
+
+.screenshotArea {
+    height: 500px;
+    background-color: rgb(24, 159, 24);
+}
+
+.screenshotArea h2 {
+    color: white;
+    padding: 10px;
+}
